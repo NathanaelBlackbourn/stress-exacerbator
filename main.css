@@ -36,11 +36,52 @@ body {
     display: none;
 }
 
+.margin {
+    margin: 0.5rem 0;
+}
+
 
 /* Date row */
 
 #date-row {
     border-bottom: 3px solid var(--primary);
+}
+
+
+/* Getter */
+
+#getter {
+    text-align: center;
+}
+
+#input-container {
+    text-align: center;
+}
+
+label {
+    font-size: 15px;
+}
+
+input {
+    border: 0;
+    border-radius: 0;
+    border-bottom: 2px solid var(--primary);
+    background-color: transparent;
+}
+
+#button-container {
+    text-align: center;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    border-bottom: 2px solid var(--primary);
 }
 
 
@@ -60,8 +101,4 @@ h3 {
     height: 1.5rem;
     width: 1.5rem;
     cursor: pointer;
-}
-
-.margin {
-    margin: 0.5rem 0;
 }
