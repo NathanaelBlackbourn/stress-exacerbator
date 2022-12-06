@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+    --primary: #38322d;
+    --background: #f6ffba;
+    font-family: Helvetica, sans-serif;
+    color: var(--primary);
+}
+
+body {
+    background: var(--background);
+}
+
+
+/* The container */
+
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    max-width: 1000px;
+    min-width: 400px;
+}
+
+
+/* Reuseable classes */
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* Date row */
+
+#date-row {
+    border-bottom: 3px solid var(--primary);
+}
+
+
+/* To-do */
+
+.to-do {
+    border-bottom: 2px dashed var(--primary);
+}
+
+h3 {
+    font-weight: 400;
+}
+
+.checkbox {
+    border-radius: 50%;
+    border: 1px solid black;
+    height: 1.5rem;
+    width: 1.5rem;
+    cursor: pointer;
+}
+
+.margin {
+    margin: 0.5rem 0;
+}
